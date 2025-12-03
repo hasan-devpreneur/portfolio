@@ -11,9 +11,9 @@ export const DATA = {
   url: "https://hasanafzal.dev",
   location: "Lahore, Pakistan",
   description:
-    "Senior Software Engineer & Full-Stack Architect. Specialist in modernizing legacy systems, AI integration, and scalable SaaS infrastructure.",
+    "Senior Software & AI Engineer with 5+ years of experience. Expert in building AI-driven SaaS platforms, architecting LLM pipelines, and modernizing legacy systems to achieve scalable, high-performance solutions on schedule",
   summary:
-    "Senior Software Engineer with 5+ years of experience architecting high-performance SaaS platforms and leading engineering teams. Expert in modernizing legacy systems, implementing AI/LLM solutions, and building scalable cloud infrastructure. Proven track record of reducing operational costs by up to 60% and launching products that acquire thousands of active users.",
+    "Senior Software Engineer with 5+ years of experience, specializing in end-to-end SaaS design, development, and delivery. I architect AI-driven platforms, including LLM pipelines, RAG systems, and scalable cloud infrastructure, from concept to production. I combine strategic system design with disciplined execution, delivering complex projects on schedule, cutting costs by up to 60%, and scaling to millions of users. I’ve led multi-quarter modernizations, designed high-volume payment systems, and built AI features that boost engagement and revenue.",
   avatarUrl: "/me.png",
   skills: {
     languages: ["Ruby", "Python", "Typescript"],
@@ -438,12 +438,12 @@ export const DATA = {
       projectTitle: "Piqosity",
       problem: (
         <>
-          The legacy platform (built on <strong>Neo4j</strong>) faced critical
-          constraints: high infrastructure costs ($1,000/mo) and cripplingly
-          slow response times (8s-15s latency). Additionally, the system lacked
-          a flexible <strong>assessment engine</strong>; teachers and
-          organizations needed a way to create dynamic, custom quizzes with
-          version control, which the rigid legacy schema could not support.
+          The legacy platform faced critical constraints: high infrastructure
+          costs ($1,000/mo) and cripplingly slow response times (8s-15s
+          latency). Additionally, the system lacked a flexible
+          <strong> assessment engine</strong>; teachers and organizations needed
+          a way to create dynamic, custom quizzes with version control, which
+          the rigid legacy schema could not support.
         </>
       ),
       solution: (
