@@ -105,8 +105,8 @@ export const DATA = {
           strategies for multiple SaaS platforms. This involved leading a
           full-stack team of <strong>10+ engineers</strong> through complex,
           multi-quarter migrations and high-scale optimizations. For the
-          <strong>Piqosity</strong> platform, I owned the end-to-end strategy to
-          migrate from a costly, high-latency Neo4j database to a performant
+          <strong> Piqosity</strong> platform, I owned the end-to-end strategy
+          to migrate from a costly, high-latency Neo4j database to a performant
           PostgreSQL architecture, which is a high-risk endeavor with a
           significant industry failure rate. The solution included designing a
           dynamic assessment engine, implementing a repository pattern to
