@@ -244,7 +244,7 @@ export default function Page() {
       </section>
       <section className="flex items-center justify-center px-4 lg:fixed lg:bottom-4 lg:right-4 lg:z-50 lg:p-0 lg:w-auto">
         <a
-          href="/resume.pdf"
+          href="/Hasan_Afzal_Resume.pdf"
           download="Hasan_Afzal_Resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
