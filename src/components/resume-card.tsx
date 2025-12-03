@@ -85,7 +85,7 @@ export const ResumeCard = ({
                 {period}
               </div>
             </div>
-            {subtitle && <div className="font-sans text-xs">{subtitle}</div>}
+            {subtitle && <div className="font-sans text-sm pt-0.5">{subtitle}</div>}
           </CardHeader>
           {description && (
             <motion.div

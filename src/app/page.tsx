@@ -134,7 +134,21 @@ export default function Page() {
           <div className="flex flex-col gap-y-2">
             <BlurFade delay={BLUR_FADE_DELAY * 10}>
               <h3 className="text-sm font-semibold text-muted-foreground">
-                Database
+                AI
+              </h3>
+            </BlurFade>
+            <div className="flex flex-wrap gap-1">
+              {DATA.skills.ai.map((skill, id) => (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill}>{skill}</Badge>
+                </BlurFade>
+              ))}
+            </div>
+          </div>
+          <div className="flex flex-col gap-y-2">
+            <BlurFade delay={BLUR_FADE_DELAY * 10}>
+              <h3 className="text-sm font-semibold text-muted-foreground">
+                Databases
               </h3>
             </BlurFade>
             <div className="flex flex-wrap gap-1">
@@ -153,20 +167,6 @@ export default function Page() {
             </BlurFade>
             <div className="flex flex-wrap gap-1">
               {DATA.skills.infrastructure.map((skill, id) => (
-                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                  <Badge key={skill}>{skill}</Badge>
-                </BlurFade>
-              ))}
-            </div>
-          </div>
-          <div className="flex flex-col gap-y-2">
-            <BlurFade delay={BLUR_FADE_DELAY * 10}>
-              <h3 className="text-sm font-semibold text-muted-foreground">
-                AI
-              </h3>
-            </BlurFade>
-            <div className="flex flex-wrap gap-1">
-              {DATA.skills.ai.map((skill, id) => (
                 <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
                   <Badge key={skill}>{skill}</Badge>
                 </BlurFade>
