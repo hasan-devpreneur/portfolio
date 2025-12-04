@@ -28,7 +28,7 @@ export const DATA = {
     ],
     infrastructure: [
       "Docker",
-      "AWS (EC2, RDS, S3, Lambda, VPC)",
+      "AWS (EC2, RDS, S3, Lambda, VPC, CloudFront)",
       "Nginx",
       "Cloudflare Workers",
       "CI/CD Pipelines",
@@ -102,27 +102,28 @@ export const DATA = {
       description: (
         <>
           As the Technical Lead, I architected and executed modernization
-          strategies for multiple SaaS platforms. This involved leading a
-          full-stack team of <strong>10+ engineers</strong> through complex,
-          multi-quarter migrations and high-scale optimizations. For the
-          <strong> Piqosity</strong> platform, I owned the end-to-end strategy
-          to migrate from a costly, high-latency Neo4j database to a performant
-          PostgreSQL architecture, which is a high-risk endeavor with a
-          significant industry failure rate. The solution included designing a
-          dynamic assessment engine, implementing a repository pattern to
-          decouple business logic, and orchestrating a zero-downtime cutover.
-          The result was a
-          <strong> 60% reduction in monthly infrastructure costs</strong> (from
-          $1,000 to $400) and a performance improvement from 8-15s to 1-2s page
-          loads. For <strong>Upcoming Events</strong>, I architected the system
-          to handle unpredictable traffic surges of{" "}
-          <strong>2+ million monthly users</strong> by implementing
-          multi-layered caching (Redis, CloudFront CDN) and a robust,
-          multi-provider payment orchestration layer (Stripe, Apple Pay,
-          PayPal). I also led the integration of AI capabilities for products
-          like <strong>Evyai</strong> and <strong>Elftapes</strong>,
-          establishing architectural patterns for RAG systems and cross-platform
-          media pipelines.
+          strategies for multiple SaaS platforms, transitioning legacy monoliths
+          into scalable <strong>microservices architectures</strong>. This
+          involved leading a full-stack team of <strong>10+ engineers</strong>{" "}
+          through complex, multi-quarter migrations and high-scale
+          optimizations. For a major
+          <strong> EdTech platform</strong>, I owned the end-to-end strategy to
+          migrate from a costly, high-latency Neo4j database to a performant
+          PostgreSQL architecture. The solution included designing a dynamic
+          assessment engine, implementing a repository pattern to decouple
+          business logic, and orchestrating a zero-downtime cutover. The result
+          was a <strong>60% reduction in monthly infrastructure costs</strong>{" "}
+          (from $1,000 to $600) and a performance improvement from 8-15s to 1-2s
+          page loads. For a high-traffic{" "}
+          <strong>event management system</strong>, I architected the
+          infrastructure to handle unpredictable traffic surges of{" "}
+          <strong>1+ million monthly users</strong>. This involved implementing
+          multi-layered caching, <strong>DDoS protection</strong>, and{" "}
+          <strong>rate limiting</strong> alongside a robust, multi-provider
+          payment orchestration layer. I also integrated{" "}
+          <strong>Elasticsearch to power Natural Language Search</strong> and
+          led AI integrations, establishing architectural patterns for RAG
+          systems and cross-platform media pipelines.
         </>
       ),
     },
@@ -137,21 +138,25 @@ export const DATA = {
       end: "April 2023",
       description: (
         <>
-          I engineered scalable backend services and{" "}
-          <strong>microservices</strong> for enterprise B2B applications,
-          focusing on domains requiring high integrity, such as fintech and HR.
-          I developed core financial infrastructure for{" "}
-          <strong>QuickCard</strong>, implementing secure checkout and batch
-          settlement logic. For the <strong>Etyme</strong> workforce management
-          platform, I built real-time features and complex multi-state
-          compliance workflows. I contributed to the{" "}
-          <strong>microservices-based architecture</strong> for the{" "}
-          <strong>Fazier</strong> community platform, collaborating with product
-          teams to translate business requirements into robust technical
-          solutions. A key part of my role involved fostering team growth; I
-          provided hands-on mentorship and{" "}
-          <strong>training for 3 interns</strong>, guiding them on development
-          workflows, system design principles, and coding best practices.
+          I engineered scalable backend services for enterprise B2B
+          applications, focusing on domains requiring high integrity, such as
+          fintech and HR. I utilized <strong>Docker</strong> for containerized
+          environments and managed persistent storage using{" "}
+          <strong>AWS EBS</strong> to ensure system reliability. I developed
+          core financial infrastructure for a <strong>fintech solution</strong>,
+          implementing secure checkout and batch settlement logic. For a{" "}
+          <strong>workforce management platform</strong>, I built real-time
+          features and complex multi-state compliance workflows. I contributed
+          to the backend architecture for a{" "}
+          <strong>community engagement platform</strong>, collaborating with
+          product teams to translate business requirements into robust technical
+          solutions. Additionally, I implemented{" "}
+          <strong>CloudFront versioning strategies</strong> to ensure instant
+          updates and efficient content delivery. A key part of my role involved
+          fostering team growth; I provided{" "}
+          <strong> hands-on mentorship to juniors</strong> and{" "}
+          <strong>training for interns</strong>, guiding them on development
+          workflows and coding best practices.
         </>
       ),
     },
@@ -172,9 +177,10 @@ export const DATA = {
           collaborated within an agile team environment, participating in daily
           stand-ups, sprint planning, and code reviews to deliver user-facing
           features and maintain application functionality. This role provided
-          foundational experience in RESTful API integration, database
-          management, and responsive UI development within a production SaaS
-          environment.
+          foundational experience in RESTful API integration,{" "}
+          <strong>webhook implementation</strong>, database management, and
+          configuring <strong>Nginx</strong> servers on <strong>AWS</strong>{" "}
+          within a production SaaS environment.
         </>
       ),
     },
@@ -434,7 +440,7 @@ export const DATA = {
   caseStudies: [
     {
       title:
-        "The Piqosity Modernization: Incremental Rewrite, 60% Cost Reduction",
+        "The Piqosity Modernization: Incremental Rewrite, 40% Cost Reduction",
       projectTitle: "Piqosity",
       problem: (
         <>
@@ -483,7 +489,7 @@ export const DATA = {
       outcome: [
         <>
           <strong>Business Impact:</strong> Reduced monthly infrastructure cost
-          by <strong>60%</strong> (from $1,000 to $400) while unlocking B2B
+          by <strong>40%</strong> (from $1,000 to $600) while unlocking B2B
           revenue streams through the new Organization/Teacher quiz creation
           tools.
         </>,
@@ -530,7 +536,7 @@ export const DATA = {
           <br />
           <strong>2. Query Optimization:</strong> Led a systematic campaign to
           identify and rewrite critical N+1 queries and slow joins, reducing
-          average database response time by over 60%.
+          average database response time by over 40%.
           <br />
           <br />
           <strong>3. Financial Integrity & Orchestration:</strong> Designed and
@@ -545,7 +551,7 @@ export const DATA = {
       outcome: [
         <>
           <strong>Scalability Achieved:</strong> Successfully scaled the
-          platform to reliably handle <strong>2+ million monthly users</strong>,
+          platform to reliably handle <strong>1+ million monthly users</strong>,
           stabilizing performance during peak traffic events.
         </>,
         <>
