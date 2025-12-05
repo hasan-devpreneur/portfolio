@@ -104,26 +104,38 @@ export const DATA = {
           As the Technical Lead, I architected and executed modernization
           strategies for multiple SaaS platforms, transitioning legacy monoliths
           into scalable <strong>microservices architectures</strong>. This
-          involved leading a full-stack team of <strong>10+ engineers</strong>{" "}
+          involved leading a full-stack team of <strong>15+ engineers</strong>{" "}
           through complex, multi-quarter migrations and high-scale
-          optimizations. For a major
-          <strong> EdTech platform</strong>, I owned the end-to-end strategy to
-          migrate from a costly, high-latency Neo4j database to a performant
-          PostgreSQL architecture. The solution included designing a dynamic
-          assessment engine, implementing a repository pattern to decouple
-          business logic, and orchestrating a zero-downtime cutover. The result
-          was a <strong>60% reduction in monthly infrastructure costs</strong>{" "}
-          (from $1,000 to $600) and a performance improvement from 8-15s to 1-2s
-          page loads. For a high-traffic{" "}
-          <strong>event management system</strong>, I architected the
-          infrastructure to handle unpredictable traffic surges of{" "}
-          <strong>1+ million monthly users</strong>. This involved implementing
-          multi-layered caching, <strong>DDoS protection</strong>, and{" "}
-          <strong>rate limiting</strong> alongside a robust, multi-provider
-          payment orchestration layer. I also integrated{" "}
-          <strong>Elasticsearch to power Natural Language Search</strong> and
-          led AI integrations, establishing architectural patterns for RAG
-          systems and cross-platform media pipelines.
+          optimizations.
+          <br />
+          <br />
+          For a major <strong>EdTech platform</strong>, I replaced a legacy
+          system suffering from critical scalability issues with a modern{" "}
+          <strong>React and Ruby on Rails</strong> architecture. I implemented
+          an incremental migration strategy, routing traffic{" "}
+          <strong>route-by-route</strong> to the new application while handling{" "}
+          <strong>unified authentication</strong> across both repositories
+          simultaneously. I introduced a <strong>Query Pattern</strong> to
+          decouple business logic, allowing us to refactor the schema and
+          migrations seamlessly after the shift. The result was a{" "}
+          <strong>60% reduction in infrastructure costs</strong> and a
+          performance improvement from 15s to 1-2s page loads.
+          <br />
+          <br />
+          For a high-traffic <strong>event management system</strong>, I
+          designed a robust <strong>Ticket Inventory System</strong> to handle
+          concurrency during massive traffic surges of{" "}
+          <strong>million monthly users</strong>. I led a campaign to{" "}
+          <strong>optimize database queries</strong> and page loading speeds.
+          <br />
+          <br />
+          Additionally, I integrated <strong>Elasticsearch</strong> to power{" "}
+          <strong>Natural Language and Full-Text Search</strong>, optimizing it
+          to query <strong>millions of records at snap speed</strong>. I also
+          architected advanced <strong>AI pipelines</strong>—including{" "}
+          <strong>LLM fine-tuning</strong> and <strong>RAG systems</strong>—and
+          implemented <strong>FFmpeg</strong> to power robust{" "}
+          <strong>cross-platform media pipelines</strong>.
         </>
       ),
     },
@@ -142,12 +154,15 @@ export const DATA = {
           applications, focusing on domains requiring high integrity, such as
           fintech and HR. I utilized <strong>Docker</strong> for containerized
           environments and managed persistent storage using{" "}
-          <strong>AWS EBS</strong> to ensure system reliability. I developed
-          core financial infrastructure for a <strong>fintech solution</strong>,
-          implementing secure checkout and batch settlement logic. For a{" "}
+          <strong>AWS EBS</strong> to ensure system reliability.
+          <br />
+          <br />I developed core financial infrastructure for a{" "}
+          <strong>fintech solution</strong>, implementing secure checkout and
+          batch settlement logic. For a{" "}
           <strong>workforce management platform</strong>, I built real-time
-          features and complex multi-state compliance workflows. I contributed
-          to the backend architecture for a{" "}
+          features and complex multi-state compliance workflows.
+          <br />
+          <br />I contributed to the backend architecture for a{" "}
           <strong>community engagement platform</strong>, collaborating with
           product teams to translate business requirements into robust technical
           solutions. Additionally, I implemented{" "}
@@ -176,8 +191,10 @@ export const DATA = {
           frontend and <strong>Ruby on Rails</strong> on the backend. I
           collaborated within an agile team environment, participating in daily
           stand-ups, sprint planning, and code reviews to deliver user-facing
-          features and maintain application functionality. This role provided
-          foundational experience in RESTful API integration,{" "}
+          features and maintain application functionality.
+          <br />
+          <br />
+          This role provided foundational experience in RESTful API integration,{" "}
           <strong>webhook implementation</strong>, database management, and
           configuring <strong>Nginx</strong> servers on <strong>AWS</strong>{" "}
           within a production SaaS environment.
@@ -238,7 +255,6 @@ export const DATA = {
       technologies: [
         "Ruby on Rails",
         "React",
-        "Neo4j (Legacy Migration)",
         "Microservices",
         "Elasticsearch",
         "PostgreSQL",
@@ -413,155 +429,131 @@ export const DATA = {
       image: "/fazier-web.png",
       video: "",
     },
-    // {
-    //   title: "Meetrics Ai",
-    //   href: "https://chromewebstore.google.com/detail/meetrics-prepare-excellen/nddolgdejkdipjdjmafjliljackcambn?hl=en",
-    //   active: true,
-    //   description:
-    //     "A smart meeting assistant integrated with Google Calendar. Uses can generate context-aware agendas and analytics based on meeting history.",
-    //   technologies: [
-    //   "Next.js",
-    //   "Typescript",
-    //   "LangChain",
-    //   "RAG",
-    //   "Google Calendar API",
-    // ],
-    //   links: [
-    //     {
-    //       type: "Extension",
-    //       href: "https://chromewebstore.google.com/detail/meetrics-prepare-excellen/nddolgdejkdipjdjmafjliljackcambn?hl=en",
-    //       icon: <Icons.chrome className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/meetrics.png",
-    //   video: "",
-    // },
   ],
   caseStudies: [
     {
       title:
-        "The Piqosity Modernization: Incremental Rewrite, 40% Cost Reduction",
+        "The Piqosity Modernization: Incremental Rewrite & 40% Cost Reduction",
       projectTitle: "Piqosity",
       problem: (
         <>
-          The legacy platform faced critical constraints: high infrastructure
-          costs ($1,000/mo) and cripplingly slow response times (8s-15s
-          latency). Additionally, the system lacked a flexible
-          <strong> assessment engine</strong>; teachers and organizations needed
-          a way to create dynamic, custom quizzes with version control, which
-          the rigid legacy schema could not support.
+          The legacy platform was built on an outdated stack that could not
+          scale. It faced critical constraints including high infrastructure
+          costs and cripplingly slow response times (8s-15s latency). the old
+          architecture prevented the development of flexible features like
+          dynamic assessments, and the code was too brittle to maintain
+          efficiently.
         </>
       ),
       solution: (
         <>
-          As the <strong>Technical Architect</strong>, I owned the multi-quarter
-          rewrite and migration strategy. Beyond the infrastructure overhaul, I
-          engineered a core <strong>Dynamic Assessment Engine</strong>:
+          As the <strong>Technical Architect</strong>, I owned the modernization
+          strategy, moving from the legacy monolith to a modern
+          <strong> React and Ruby on Rails</strong> ecosystem:
           <br />
           <br />
-          <strong>1. Dynamic Quiz & Form Engine:</strong> Designed a complex
-          relational schema allowing organizations to build custom quizzes with
-          dynamic question types, logic jumps, and versioning. This engine
-          supports millions of student attempts, handling state management for
-          in-progress tests and instant auto-grading.
+          <strong>1. Route-by-Route Migration (Strangler Fig):</strong> Instead
+          of a "big bang" rewrite, I orchestrated an incremental switchover. We
+          moved traffic <strong>route-by-route</strong> to the new app, ensuring
+          zero downtime. I architected a bridge to handle
+          <strong> unified authentication</strong> on both repos simultaneously,
+          keeping user sessions synced across the legacy and new systems.
           <br />
           <br />
-          <strong>2. Parallel Migration Strategy:</strong> Orchestrated an
-          incremental switchover using <strong>Nginx</strong> as a traffic
-          proxy. Managed the strategic database migration from
-          <strong>Neo4j to PostgreSQL</strong>, ensuring schema compatibility
-          and data integrity during the transition.
+          <strong>2. Query Pattern & Schema Optimization:</strong> I implemented
+          a strict <strong>Query Pattern</strong> to decouple business logic
+          from the database early on. Once all routes were shifted, this allowed
+          us to cleanly update the{" "}
+          <strong>database schema and migrations</strong>
+          to a modern standard without breaking the application logic.
           <br />
           <br />
-          <strong>3. Database Decoupling (Query Pattern):</strong> Implemented a
-          centralized <strong>Query Pattern (Repository Layer)</strong> to
-          decouple application logic from the database, simplifying the complex
-          joins required for the new analytics dashboards.
+          <strong>3. Dynamic Assessment Engine:</strong> Leveraged the new
+          schema flexibility to design a complex relational engine allowing
+          organizations to build custom quizzes with dynamic question types and
+          versioning.
           <br />
           <br />
           <strong>4. Performance & Scale:</strong> Integrated{" "}
-          <strong>Redis</strong> to efficiently handle non-runtime calculations
-          (e.g., daily student progress updates) and{" "}
-          <strong>Elasticsearch</strong> for full-text search across the vast
-          library of assessment content.
+          <strong>Redis</strong> for non-runtime calculations and optimized all
+          data-access layers, resulting in massive speed gains.
         </>
       ),
       outcome: [
         <>
           <strong>Business Impact:</strong> Reduced monthly infrastructure cost
-          by <strong>40%</strong> (from $1,000 to $600) while unlocking B2B
-          revenue streams through the new Organization/Teacher quiz creation
-          tools.
+          by <strong>40%</strong> while unlocking B2B revenue streams through
+          the new Organization/Teacher tools.
         </>,
         <>
           <strong>User Experience:</strong> Cut median page load time from{" "}
-          <strong>8s-15s to 1s-2s</strong>, directly improving key retention
+          <strong>15s to 1-2s</strong>, directly improving key retention
           metrics.
         </>,
         <>
-          <strong>Technical Feat:</strong> Executed a{" "}
-          <strong>zero-downtime, incremental migration</strong> over a
-          multi-quarter period, successfully managing parallel authentication
-          and data consistency.
+          <strong>Technical Feat:</strong> Executed a risk-free, incremental
+          migration while maintaining data consistency and auth across two live
+          production environments.
         </>,
       ],
     },
     {
       title:
-        "Upcoming Events: Scaling to Millions and Orchestrating Complex Payments",
+        "Upcoming Events: Scaling Tickets Inventory & Optimizing Performance",
       projectTitle: "Upcoming Events",
       problem: (
         <>
           The platform experienced massive, unpredictable traffic spikes (up to
-          3 million monthly users) around major ticket sales, causing frequent
-          database bottlenecks. Furthermore, the fragmented payment system
-          lacked modern, high-conversion options, directly hindering revenue
-          potential and requiring robust financial integrity.
+          million monthly users) around major ticket sales. The legacy queries
+          were unoptimized, leading to slow page loads, and the system lacked a
+          robust inventory manager to handle race conditions during flash sales.
         </>
       ),
       solution: (
         <>
-          As the <strong>Technical Lead</strong>, I led the architecture and
-          execution of a full-stack solution focused on system resilience and
-          transaction reliability:
+          As the <strong>Technical Lead</strong>, I led a full-stack
+          optimization strategy:
           <br />
           <br />
-          <strong>1. High-Scale Caching & Performance:</strong> Implemented a
-          multi-layered caching strategy using <strong>Redis</strong> for hot
-          data and <strong>CDN (Cloudflare)</strong> for edge delivery.
-          Specifically, I utilized <strong>AWS CloudFront</strong> for image
-          caching, implementing <strong>versioning</strong> to ensure immediate
-          cache invalidation and delivery of updated image assets.
+          <strong>1. Ticket Inventory System:</strong> I architected and
+          designed a high-performance <strong>Ticket Inventory System</strong>{" "}
+          capable of handling high concurrency. This ensured data integrity and
+          prevented over-selling during intense traffic spikes.
           <br />
           <br />
-          <strong>2. Query Optimization:</strong> Led a systematic campaign to
-          identify and rewrite critical N+1 queries and slow joins, reducing
-          average database response time by over 40%.
+          <strong>2. Query Optimization & Page Load Speed:</strong> Led a
+          systematic campaign to identify and rewrite critical N+1 queries and
+          slow joins. I optimized the database indexing strategy and payload
+          sizes, reducing average database response time by over 40% and
+          drastically improving page load speeds.
           <br />
           <br />
-          <strong>3. Financial Integrity & Orchestration:</strong> Designed and
-          built a robust payment gateway layer to integrate multiple providers,
-          including <strong>Stripe, Apple Pay, and PayPal</strong>. Ensured
-          transaction integrity using strict <strong>idempotency checks</strong>{" "}
-          and developed the full lifecycle logic for automated{" "}
-          <strong>refund processing</strong>, dispute management, and settlement
-          reporting.
+          <strong>3. High-Scale Caching:</strong> Implemented a multi-layered
+          caching strategy using <strong>Redis</strong> for hot data and{" "}
+          <strong>CDN (Cloudflare)</strong> for edge delivery, specifically
+          focusing on versioning for immediate cache invalidation.
+          <br />
+          <br />
+          <strong>4. Financial Integrity:</strong> Designed a robust payment
+          gateway layer (Stripe, Apple Pay, PayPal) with strict{" "}
+          <strong> idempotency checks</strong> to ensure transaction
+          reliability.
         </>
       ),
       outcome: [
         <>
           <strong>Scalability Achieved:</strong> Successfully scaled the
-          platform to reliably handle <strong>1+ million monthly users</strong>,
+          platform to reliably handle <strong>million monthly users</strong>,
           stabilizing performance during peak traffic events.
         </>,
         <>
-          <strong>Revenue Impact:</strong> The unified payment orchestration
-          system increased conversion rates and diversified revenue streams.
+          <strong>Performance Wins:</strong> Drastically reduced page load times
+          through deep query optimization and efficient caching strategies.
         </>,
         <>
-          <strong>System Reliability:</strong> Delivered robust, auditable
-          transaction management and refund processing, establishing the
-          necessary financial integrity for sustained growth.
+          <strong>System Reliability:</strong> The new Inventory System
+          eliminated race conditions, ensuring 100% accurate ticket allocations
+          during flash sales.
         </>,
       ],
     },
