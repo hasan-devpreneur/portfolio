@@ -13,7 +13,7 @@ export const DATA = {
   description:
     "Senior Software & AI Engineer with 5+ years of experience. Expert in building SaaS platforms, architecting LLM pipelines, and building scalable, high-performance solutions",
   summary:
-    "Senior Software Engineer with 5+ years of experience, specializing in end-to-end SaaS design, development, and delivery. I architect AI-driven platforms, including LLM pipelines, RAG systems, and scalable cloud infrastructure, from concept to production. I combine strategic system design with disciplined execution, delivering complex projects on schedule, cutting costs by up to 60%, and scaling to millions of users. I’ve led multi-quarter modernizations, designed high-volume payment systems, and built AI features that boost engagement and revenue.",
+    "Senior Software Engineer with 5+ years of experience, specializing in end-to-end SaaS design, development, and delivery. I architect AI-driven platforms, including LLM pipelines, RAG systems, and scalable cloud infrastructure, from concept to production. I combine strategic system design with disciplined execution, delivering complex projects on schedule, cutting costs by up to 40%, and scaling to millions of users. I’ve led multi-quarter modernizations, designed high-volume payment systems, and built AI features that boost engagement and revenue.",
   avatarUrl: "/me.png",
   skills: {
     languages: ["Ruby", "Python", "Typescript"],
