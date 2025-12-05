@@ -66,7 +66,7 @@ export default function Page() {
                 altText={work.company}
                 title={work.company}
                 subtitle={work.title}
-                href={work.href}
+                // href={work.href}
                 badges={work.badges}
                 period={`${work.start} - ${work.end ?? "Present"}`}
                 description={work.description}
@@ -87,12 +87,13 @@ export default function Page() {
             >
               <ResumeCard
                 key={education.school}
-                href={education.href}
+                // href={education.href}
                 logoUrl={education.logoUrl}
                 altText={education.school}
                 title={education.school}
                 subtitle={education.degree}
                 period={`${education.start} - ${education.end}`}
+                showIcon={false}
               />
             </BlurFade>
           ))}

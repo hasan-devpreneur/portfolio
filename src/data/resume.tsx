@@ -94,7 +94,7 @@ export const DATA = {
       company: "3Ssolutions",
       badges: [],
       href: "https://3ssolutions.com",
-      location: "Remote",
+      location: "Hybrid",
       title: "Team Lead & Senior Software Engineer",
       logoUrl: "/3s.webp",
       start: "April 2022",
