@@ -97,7 +97,7 @@ export const DATA = {
       location: "Hybrid",
       title: "Team Lead & Senior Software Engineer",
       logoUrl: "/3s.webp",
-      start: "April 2022",
+      start: "April 2023",
       end: "Present",
       description: (
         <>
