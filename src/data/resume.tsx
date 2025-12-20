@@ -449,7 +449,7 @@ export const DATA = {
         <>
           As the <strong>Technical Architect</strong>, I owned the modernization
           strategy, moving from the legacy monolith to a modern
-          <strong> React and Ruby on Rails</strong> ecosystem:
+          <strong> React and NodeJs</strong> ecosystem:
           <br />
           <br />
           <strong>1. Route-by-Route Migration (Strangler Fig):</strong> Instead
