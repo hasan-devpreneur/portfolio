@@ -404,6 +404,57 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Gridd",
+      href: "https://gridd.me/",
+      active: true,
+      description:
+        "A visual link-in-bio platform with drag-and-drop grid layouts, embedded media, a 0%-commission storefront, analytics, and 25+ social integrations — scaled to 675+ users organically.",
+      technologies: [
+        "Next.js",
+        "React",
+        "PostgreSQL",
+        "Cloudflare",
+        "Vercel",
+        "TailwindCSS",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gridd.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/gridd.png",
+      video: "",
+    },
+    {
+      title: "ClawHost",
+      href: "https://clawhost.pro/",
+      active: true,
+      description:
+        "A one-click deployment platform for autonomous AI agents on dedicated cloud VMs — sandboxed environments, 850+ integrations, hot-swappable LLM providers, and remote desktop access with zero DevOps setup.",
+      technologies: [
+        "Next.js",
+        "Node.js",
+        "Hetzner Cloud API",
+        "Linux VMs",
+        "VNC",
+        "OpenClaw Framework",
+        "Docker",
+        "Stripe",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://clawhost.pro/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/clawhost.png",
+      video: "",
+    },
+    {
       title: "Fazier",
       href: "http://fazier.com/",
       active: true,
