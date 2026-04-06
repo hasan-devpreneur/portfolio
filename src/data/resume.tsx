@@ -11,9 +11,9 @@ export const DATA = {
   url: "https://hasanafzal.dev",
   location: "Lahore, Pakistan",
   description:
-    "Senior Software & AI Engineer with 5+ years of experience. Expert in building SaaS platforms, architecting LLM pipelines, and building scalable, high-performance solutions",
+    "Senior Software & AI Engineer. I build SaaS platforms, architect LLM pipelines, and ship products that scale to millions of users.",
   summary:
-    "Senior Software Engineer with 5+ years of experience, specializing in end-to-end SaaS design, development, and delivery. I architect AI-driven platforms, including LLM pipelines, RAG systems, and scalable cloud infrastructure, from concept to production. I combine strategic system design with disciplined execution, delivering complex projects on schedule, cutting costs by up to 40%, and scaling to millions of users. I’ve led multi-quarter modernizations, designed high-volume payment systems, and built AI features that boost engagement and revenue.",
+    "I’ve spent the last 5+ years shipping SaaS products end-to-end, from early architecture decisions to production at scale. Most recently, I led a 15-engineer team through multi-quarter platform modernizations that cut infrastructure costs by 40% and dropped page loads from 15s to under 2s. I’ve designed high-volume payment systems, built RAG and LLM pipelines for production AI features, and scaled event platforms to handle million-user traffic spikes. I also build and launch my own products on the side.",
   avatarUrl: "/me.png",
   skills: {
     languages: ["Ruby", "Python", "Typescript"],
@@ -51,8 +51,6 @@ export const DATA = {
       "TailwindCSS",
       "FFmpeg",
       "Sentry",
-      "Google Search Console",
-      "Segment Analytics",
     ],
   },
   navbar: [
@@ -101,41 +99,19 @@ export const DATA = {
       end: "Present",
       description: (
         <>
-          As the Technical Lead, I architected and executed modernization
-          strategies for multiple SaaS platforms, transitioning legacy monoliths
-          into scalable <strong>microservices architectures</strong>. This
-          involved leading a full-stack team of <strong>15+ engineers</strong>{" "}
-          through complex, multi-quarter migrations and high-scale
-          optimizations.
+          Led a team of <strong>15+ engineers</strong> across multiple SaaS
+          platform modernizations. Migrated a legacy EdTech monolith to{" "}
+          <strong>React and Rails</strong> using an incremental route-by-route
+          strategy, cutting infra costs by <strong>60%</strong> and page loads
+          from 15s to <strong>under 2s</strong>.
           <br />
           <br />
-          For a major <strong>EdTech platform</strong>, I replaced a legacy
-          system suffering from critical scalability issues with a modern{" "}
-          <strong>React and Ruby on Rails</strong> architecture. I implemented
-          an incremental migration strategy, routing traffic{" "}
-          <strong>route-by-route</strong> to the new application while handling{" "}
-          <strong>unified authentication</strong> across both repositories
-          simultaneously. I introduced a <strong>Query Pattern</strong> to
-          decouple business logic, allowing us to refactor the schema and
-          migrations seamlessly after the shift. The result was a{" "}
-          <strong>60% reduction in infrastructure costs</strong> and a
-          performance improvement from 15s to 1-2s page loads.
-          <br />
-          <br />
-          For a high-traffic <strong>event management system</strong>, I
-          designed a robust <strong>Ticket Inventory System</strong> to handle
-          concurrency during massive traffic surges of{" "}
-          <strong>million monthly users</strong>. I led a campaign to{" "}
-          <strong>optimize database queries</strong> and page loading speeds.
-          <br />
-          <br />
-          Additionally, I integrated <strong>Elasticsearch</strong> to power{" "}
-          <strong>Natural Language and Full-Text Search</strong>, optimizing it
-          to query <strong>millions of records at snap speed</strong>. I also
-          architected advanced <strong>AI pipelines</strong>—including{" "}
-          <strong>LLM fine-tuning</strong> and <strong>RAG systems</strong>—and
-          implemented <strong>FFmpeg</strong> to power robust{" "}
-          <strong>cross-platform media pipelines</strong>.
+          Built a <strong>Ticket Inventory System</strong> for an event platform
+          handling <strong>million monthly users</strong>, ran deep query
+          optimization campaigns, and integrated{" "}
+          <strong>Elasticsearch</strong> for full-text search across millions of
+          records. Architected <strong>LLM and RAG pipelines</strong> and
+          server-side media processing with <strong>FFmpeg</strong>.
         </>
       ),
     },
@@ -150,34 +126,23 @@ export const DATA = {
       end: "April 2023",
       description: (
         <>
-          I engineered scalable backend services for enterprise B2B
-          applications, focusing on domains requiring high integrity, such as
-          fintech and HR. I utilized <strong>Docker</strong> for containerized
-          environments and managed persistent storage using{" "}
-          <strong>AWS EBS</strong> to ensure system reliability.
+          Built backend services for enterprise B2B products in fintech and HR.
+          Developed secure checkout and <strong>batch settlement</strong> logic
+          for a payments platform, and real-time features with{" "}
+          <strong>multi-state compliance</strong> workflows for a workforce
+          management tool.
           <br />
-          <br />I developed core financial infrastructure for a{" "}
-          <strong>fintech solution</strong>, implementing secure checkout and
-          batch settlement logic. For a{" "}
-          <strong>workforce management platform</strong>, I built real-time
-          features and complex multi-state compliance workflows.
           <br />
-          <br />I contributed to the backend architecture for a{" "}
-          <strong>community engagement platform</strong>, collaborating with
-          product teams to translate business requirements into robust technical
-          solutions. Additionally, I implemented{" "}
-          <strong>CloudFront versioning strategies</strong> to ensure instant
-          updates and efficient content delivery. A key part of my role involved
-          fostering team growth; I provided{" "}
-          <strong> hands-on mentorship to juniors</strong> and{" "}
-          <strong>training for interns</strong>, guiding them on development
-          workflows and coding best practices.
+          Set up <strong>Docker</strong>-based environments with{" "}
+          <strong>AWS EBS</strong> for persistent storage, implemented{" "}
+          <strong>CloudFront versioning</strong> for instant cache updates, and
+          mentored junior engineers and interns on development practices.
         </>
       ),
     },
     {
       company: "TeachCreatix",
-      href: "teachcreatix.svg",
+      href: "https://teachcreatix.com",
       badges: [],
       location: "Lahore, Pakistan",
       title: "Associate Software Engineer",
@@ -186,18 +151,11 @@ export const DATA = {
       end: "July 2021",
       description: (
         <>
-          I contributed to full-stack feature development for educational
-          technology products, working with <strong>React</strong> on the
-          frontend and <strong>Ruby on Rails</strong> on the backend. I
-          collaborated within an agile team environment, participating in daily
-          stand-ups, sprint planning, and code reviews to deliver user-facing
-          features and maintain application functionality.
-          <br />
-          <br />
-          This role provided foundational experience in RESTful API integration,{" "}
-          <strong>webhook implementation</strong>, database management, and
-          configuring <strong>Nginx</strong> servers on <strong>AWS</strong>{" "}
-          within a production SaaS environment.
+          Built full-stack features for EdTech products using{" "}
+          <strong>React</strong> and <strong>Ruby on Rails</strong>. Shipped
+          user-facing modules, integrated RESTful APIs and{" "}
+          <strong>webhooks</strong>, and configured{" "}
+          <strong>Nginx on AWS</strong> for production deployments.
         </>
       ),
     },
@@ -226,7 +184,7 @@ export const DATA = {
       href: "https://www.upcomingevents.com/",
       active: true,
       description:
-        "Event-discovery and ticketing / registration platform that scales to large traffic and supports organizers in listing events, ticket sales, and event management.",
+        "Event ticketing and discovery platform handling million+ monthly users with concurrent ticket sales, multi-gateway payments (Stripe, Apple Pay, PayPal), and edge caching.",
       technologies: [
         "Ruby on Rails",
         "ECS/Fargate",
@@ -251,7 +209,7 @@ export const DATA = {
       href: "https://www.piqosity.com/",
       active: true,
       description:
-        "Adaptive online learning & test-prep platform offering personalized math/English lessons and full-length practice tests (ISEE, SAT, ACT) with virtual tutoring, adaptive exercises, and analytics-driven learning paths.",
+        "Adaptive test-prep and learning platform (ISEE, SAT, ACT) with personalized lessons, dynamic assessments, and analytics-driven learning paths. Migrated from legacy to modern stack, cutting costs 40%.",
       technologies: [
         "Ruby on Rails",
         "React",
@@ -274,51 +232,29 @@ export const DATA = {
       video: "",
     },
     {
-      title: "QuickCard",
-      href: "https://quickcard.me/",
+      title: "ClawHost",
+      href: "https://clawhost.pro/",
       active: true,
       description:
-        "QuickCard offers a “cashless checkout” / payment-infrastructure solution with blockchain-secure checkout, batch settlement, and support for multiple payment flows (ACH, Push-to-Card, E-Check).",
+        "One-click deployment platform for autonomous AI agents on dedicated cloud VMs with sandboxed environments, and hot-swappable LLM providers.",
       technologies: [
-        "Ruby on Rails",
-        "Microservices",
-        "Elasticsearch",
-        "PostgreSQL",
-        "Blockchain",
-        "Stripe Connect (ACH/P2C/E-CHECK)",
-        "Redis",
+        "Next.js",
+        "Node.js",
+        "Hetzner Cloud API",
+        "Linux VMs",
+        "VNC",
+        "OpenClaw Framework",
+        "Docker",
+        "Stripe",
       ],
       links: [
         {
           type: "Website",
-          href: "http://quickcard.me/",
+          href: "https://clawhost.pro/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/quickcard.png",
-      video: "",
-    },
-
-    {
-      title: "Etyme",
-      href: "https://www.etyme.com/",
-      active: true,
-      description:
-        "An enterprise B2B staff-agency / workforce-management platform — digitizes HR workflows, multi-state compliance, payroll and staffing operations into unified interface (ideal for agencies and staffing firms).",
-      technologies: [
-        "Ruby on Rails",
-        "MySQL",
-        "Real-time Sockets",
-        "Multi-State Compliance Logic",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://www.etyme.com/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/etyme.png",
+      image: "/clawhost.png",
       video: "",
     },
     {
@@ -326,7 +262,7 @@ export const DATA = {
       href: "https://evyai.com/",
       active: true,
       description:
-        "EvyAI is an AI-powered content / social-posting assistant (web + extension) helping users generate posts, comments, and manage social-media / networking content.",
+        "AI-powered social content assistant (web app + Chrome extension) that generates contextual posts and comments, used by thousands of active users.",
       technologies: [
         "Python",
         "FastAPI",
@@ -353,27 +289,53 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Draftr",
-      href: "https://draftr.com/",
+      title: "Gridd",
+      href: "https://gridd.me/",
       active: true,
       description:
-        "Draftr is a no-code website builder for solopreneurs: a simple platform to launch a personal / content site (blog / link-in-bio / newsletter) aimed at writers, creators, bloggers, schools, and small orgs.",
+        "Visual link-in-bio platform with drag-and-drop grid layouts, embedded media, a 0%-commission storefront, and 25+ social integrations. Fully organic growth.",
       technologies: [
         "Next.js",
-        "Ruby on Rails",
-        "MySQL",
-        "LangChain",
-        "RAG",
-        "Vector DBs",
+        "React",
+        "PostgreSQL",
+        "Cloudflare",
+        "Vercel",
+        "TailwindCSS",
+        "Stripe",
       ],
       links: [
         {
           type: "Website",
-          href: "https://draftr.com/",
+          href: "https://gridd.me/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/draftr.png",
+      image: "/gridd.png",
+      video: "",
+    },
+    {
+      title: "QuickCard",
+      href: "https://quickcard.me/",
+      active: true,
+      description:
+        "Cashless checkout and payment infrastructure with blockchain-secure transactions, batch settlement, and multiple payment flows (ACH, Push-to-Card, E-Check).",
+      technologies: [
+        "Ruby on Rails",
+        "Microservices",
+        "Elasticsearch",
+        "PostgreSQL",
+        "Blockchain",
+        "Stripe Connect (ACH/P2C/E-CHECK)",
+        "Redis",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "http://quickcard.me/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/quickcard.png",
       video: "",
     },
     {
@@ -381,7 +343,7 @@ export const DATA = {
       href: "https://elftapes.com/",
       active: true,
       description:
-        "Elftapes is a self-tape / audition-media platform: a “self-tape sidekick” built for actors, helping record, rehearse, and submit audition tapes — using AI tools to simplify the self-tape process.",
+        "Self-tape platform for actors to record, rehearse with AI scene partners, and submit audition tapes with server-side media synthesis and OCR script parsing.",
       technologies: [
         "Next.js",
         "NodeJs",
@@ -404,62 +366,11 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Gridd",
-      href: "https://gridd.me/",
-      active: true,
-      description:
-        "A visual link-in-bio platform with drag-and-drop grid layouts, embedded media, a 0%-commission storefront, analytics, and 25+ social integrations — scaled to 675+ users organically.",
-      technologies: [
-        "Next.js",
-        "React",
-        "PostgreSQL",
-        "Cloudflare",
-        "Vercel",
-        "TailwindCSS",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gridd.me/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/gridd.png",
-      video: "",
-    },
-    {
-      title: "ClawHost",
-      href: "https://clawhost.pro/",
-      active: true,
-      description:
-        "A one-click deployment platform for autonomous AI agents on dedicated cloud VMs — sandboxed environments, 850+ integrations, hot-swappable LLM providers, and remote desktop access with zero DevOps setup.",
-      technologies: [
-        "Next.js",
-        "Node.js",
-        "Hetzner Cloud API",
-        "Linux VMs",
-        "VNC",
-        "OpenClaw Framework",
-        "Docker",
-        "Stripe",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://clawhost.pro/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "/clawhost.png",
-      video: "",
-    },
-    {
       title: "Fazier",
       href: "http://fazier.com/",
       active: true,
       description:
-        "A product launch community platform for indie developers. Built for real-time engagement with nested discussions, voting logic, and a scalable Kubernetes backend.",
+        "Product launch community for indie developers with real-time nested discussions, voting logic, and a scalable serverless backend.",
       technologies: [
         "Next.js",
         "Python",
@@ -480,6 +391,30 @@ export const DATA = {
       image: "/fazier-web.png",
       video: "",
     },
+    {
+      title: "Draftr",
+      href: "https://draftr.com/",
+      active: true,
+      description:
+        "No-code site builder for creators and solopreneurs to launch blogs, link-in-bio pages, and newsletters with AI-assisted content generation and custom domains.",
+      technologies: [
+        "Next.js",
+        "Ruby on Rails",
+        "MySQL",
+        "LangChain",
+        "RAG",
+        "Vector DBs",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://draftr.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/draftr.png",
+      video: "",
+    }
   ],
   caseStudies: [
     {
@@ -488,12 +423,10 @@ export const DATA = {
       projectTitle: "Piqosity",
       problem: (
         <>
-          The legacy platform was built on an outdated stack that could not
-          scale. It faced critical constraints including high infrastructure
-          costs and cripplingly slow response times (8s-15s latency). the old
-          architecture prevented the development of flexible features like
-          dynamic assessments, and the code was too brittle to maintain
-          efficiently.
+          The legacy platform could not scale. Infrastructure costs were high,
+          response times sat at 8-15 seconds, the architecture blocked any
+          flexible feature work like dynamic assessments, and the codebase was
+          too brittle to maintain efficiently.
         </>
       ),
       solution: (
@@ -598,8 +531,8 @@ export const DATA = {
           stabilizing performance during peak traffic events.
         </>,
         <>
-          <strong>Performance Wins:</strong> Drastically reduced page load times
-          through deep query optimization and efficient caching strategies.
+          <strong>Performance Wins:</strong> Reduced average database response
+          time by over 40% through query optimization and multi-layer caching.
         </>,
         <>
           <strong>System Reliability:</strong> The new Inventory System
